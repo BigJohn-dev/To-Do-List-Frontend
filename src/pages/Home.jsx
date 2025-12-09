@@ -32,8 +32,8 @@ function Home() {
             <h1 className="home-title fade-in">Conquer Your Tasks with Ease</h1>
             <div className="hero-content fade-in">
                 <p>
-                Streamline your productivity and never forget a deadline with our powerful
-                todo task manager.
+                    Streamline your productivity and never forget a deadline with our powerful
+                    todo task manager.
                 </p>
             </div>
             <p className="home-subtitle fade-in">
@@ -43,31 +43,31 @@ function Home() {
             <div className="features-section fade-in">
                 <h2 className="features-title">Why Choose ToDo Manager?</h2>
                 <div className="features-grid">
-                <div className="feature-card fade-in" style={{animationDelay: "0.1s"}}>
-                    <span className="feature-icon">📝</span>
-                    <h3>Task Organization</h3>
-                    <p>Create, manage, and categorize tasks easily.</p>
-                </div>
-                <div className="feature-card fade-in" style={{animationDelay: "0.2s"}}>
-                    <span className="feature-icon">⏰</span>
-                    <h3>Due Dates</h3>
-                    <p>Never miss a deadline with task scheduling.</p>
-                </div>
-                <div className="feature-card fade-in" style={{animationDelay: "0.3s"}}>
-                    <span className="feature-icon">🔔</span>
-                    <h3>Reminders</h3>
-                    <p>Get notified before your tasks are due.</p>
-                </div>
-                <div className="feature-card fade-in" style={{animationDelay: "0.4s"}}>
-                    <span className="feature-icon">🤝</span>
-                    <h3>Collaboration</h3>
-                    <p>Work with teammates and share progress.</p>
-                </div>
-                <div className="feature-card fade-in" style={{animationDelay: "0.5s"}}>
-                    <span className="feature-icon">📊</span>
-                    <h3>Progress Tracking</h3>
-                    <p>Track completed tasks and boost productivity.</p>
-                </div>
+                    <div className="feature-card fade-in" style={{ animationDelay: "0.1s" }}>
+                        <span className="feature-icon">📝</span>
+                        <h3>Task Organization</h3>
+                        <p>Create, manage, and categorize tasks easily.</p>
+                    </div>
+                    <div className="feature-card fade-in" style={{ animationDelay: "0.2s" }}>
+                        <span className="feature-icon">⏰</span>
+                        <h3>Due Dates</h3>
+                        <p>Never miss a deadline with task scheduling.</p>
+                    </div>
+                    <div className="feature-card fade-in" style={{ animationDelay: "0.3s" }}>
+                        <span className="feature-icon">🔔</span>
+                        <h3>Reminders</h3>
+                        <p>Get notified before your tasks are due.</p>
+                    </div>
+                    <div className="feature-card fade-in" style={{ animationDelay: "0.4s" }}>
+                        <span className="feature-icon">🤝</span>
+                        <h3>Collaboration</h3>
+                        <p>Work with teammates and share progress.</p>
+                    </div>
+                    <div className="feature-card fade-in" style={{ animationDelay: "0.5s" }}>
+                        <span className="feature-icon">📊</span>
+                        <h3>Progress Tracking</h3>
+                        <p>Track completed tasks and boost productivity.</p>
+                    </div>
                 </div>
                 <div className="section-cta">
                     <Link to="/register" className="cta-btn primary">Start Organizing Now</Link>
@@ -101,7 +101,7 @@ function Home() {
             <div className="pricing-section fade-in">
                 <h2 className="pricing-title">Choose Your Plan</h2>
                 <div className="pricing-grid">
-                    <div className="pricing-card fade-in" style={{animationDelay: "0.2s"}}>
+                    <div className="pricing-card fade-in" style={{ animationDelay: "0.2s" }}>
                         <h3>Free</h3>
                         <p className="price">$0 / month</p>
                         <ul>
@@ -113,7 +113,7 @@ function Home() {
                         <Link to="/register" className="home-btn register">Get Started</Link>
                     </div>
 
-                    <div className="pricing-card highlight fade-in" style={{animationDelay: "0.4s"}}>
+                    <div className="pricing-card highlight fade-in" style={{ animationDelay: "0.4s" }}>
                         <h3>Pro</h3>
                         <p className="price">$9.99 / month</p>
                         <ul>
@@ -126,111 +126,111 @@ function Home() {
                     </div>
                 </div>
 
-            <div className="walkthrough-section fade-in">
-                <h2 className="walkthrough-title">See ToDo Manager in Action</h2>
-                <p className="walkthrough-subtitle">
-                    Explore the interface and key features through screenshots and a quick video demo.
-                </p>
-                <div className="screenshots-grid">
-                    <img src="/screenshots/dashboard.png" alt="Dashboard Screenshot" className="screenshot" />
-                    <img src="/screenshots/tasks.png" alt="Tasks Screenshot" className="screenshot" />
-                    <img src="/screenshots/reminders.png" alt="Reminders Screenshot" className="screenshot" />
-                </div>
-                <div className="video-container">
-                    <video controls className="walkthrough-video">
-                        <source src="/walkthrough.mp4" type="video/mp4" />
-                        <track
-                            kind="captions"
-                            srcLang="en"
-                            src="/walkthrough-captions.vtt"
-                            label="English captions"
-                            default
-                        />
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-            
-            <div className="faq-section fade-in">
-                <h2 className="faq-title">Frequently Asked Questions</h2>
-                <div className="faq-list">
-                    <div className="faq-item">
-                        <h3 className="faq-question">Is ToDo Manager free to use?</h3>
-                        <p className="faq-answer">
-                        Yes! ToDo Manager has a free plan with essential features. You can also
-                        upgrade to premium for advanced features like collaboration and reminders.
-                        </p>
+                <div className="walkthrough-section fade-in">
+                    <h2 className="walkthrough-title">See ToDo Manager in Action</h2>
+                    <p className="walkthrough-subtitle">
+                        Explore the interface and key features through screenshots and a quick video demo.
+                    </p>
+                    <div className="screenshots-grid">
+                        <img src="/screenshots/dashboard.png" alt="Dashboard Screenshot" className="screenshot" />
+                        <img src="/screenshots/tasks.png" alt="Tasks Screenshot" className="screenshot" />
+                        <img src="/screenshots/reminders.png" alt="Reminders Screenshot" className="screenshot" />
                     </div>
-                    <div className="faq-item">
-                        <h3 className="faq-question">Can I use it on mobile devices?</h3>
-                        <p className="faq-answer">
-                        Absolutely. ToDo Manager is web-based and responsive, so you can access it
-                        from your phone, tablet, or computer.
-                        </p>
-                    </div>
-                    <div className="faq-item">
-                        <h3 className="faq-question">Do I need to create an account?</h3>
-                        <p className="faq-answer">
-                        Yes, creating an account lets you securely save and sync your tasks across
-                        devices.
-                        </p>
-                    </div>
-                    <div className="faq-item">
-                        <h3 className="faq-question">Can I collaborate with my team?</h3>
-                        <p className="faq-answer">
-                        Team collaboration is available in the premium plan, allowing you to share
-                        tasks and track progress together.
-                        </p>
+                    <div className="video-container">
+                        <video controls className="walkthrough-video">
+                            <source src="/walkthrough.mp4" type="video/mp4" />
+                            <track
+                                kind="captions"
+                                srcLang="en"
+                                src="/walkthrough-captions.vtt"
+                                label="English captions"
+                                default
+                            />
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
+
+                <div className="faq-section fade-in">
+                    <h2 className="faq-title">Frequently Asked Questions</h2>
+                    <div className="faq-list">
+                        <div className="faq-item">
+                            <h3 className="faq-question">Is ToDo Manager free to use?</h3>
+                            <p className="faq-answer">
+                                Yes! ToDo Manager has a free plan with essential features. You can also
+                                upgrade to premium for advanced features like collaboration and reminders.
+                            </p>
+                        </div>
+                        <div className="faq-item">
+                            <h3 className="faq-question">Can I use it on mobile devices?</h3>
+                            <p className="faq-answer">
+                                Absolutely. ToDo Manager is web-based and responsive, so you can access it
+                                from your phone, tablet, or computer.
+                            </p>
+                        </div>
+                        <div className="faq-item">
+                            <h3 className="faq-question">Do I need to create an account?</h3>
+                            <p className="faq-answer">
+                                Yes, creating an account lets you securely save and sync your tasks across
+                                devices.
+                            </p>
+                        </div>
+                        <div className="faq-item">
+                            <h3 className="faq-question">Can I collaborate with my team?</h3>
+                            <p className="faq-answer">
+                                Team collaboration is available in the premium plan, allowing you to share
+                                tasks and track progress together.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="social-proof-section fade-in">
+                    <h2 className="social-proof-title">Trusted by Users and Teams Worldwide</h2>
+                    <p className="social-proof-subtitle">
+                        ToDo Manager is used by individuals and organizations to stay on top of their
+                        productivity.
+                    </p>
+                    <div className="social-logos">
+                        <img src="/social/google.png" alt="Google" className="social-logo" />
+                        <img src="/social/microsoft.png" alt="Microsoft" className="social-logo" />
+                        <img src="/social/slack.png" alt="Slack" className="social-logo" />
+                        <img src="/social/github.png" alt="GitHub" className="social-logo" />
+                    </div>
+                    <div className="social-quotes">
+                        <blockquote>
+                            “ToDo Manager has transformed how our team collaborates and tracks progress.”
+                            <span> — Project Lead, Tech Corp</span>
+                        </blockquote>
+                        <blockquote>
+                            “The reminders feature alone keeps me from missing important deadlines.”
+                            <span>&mdash; Freelancer, Creative Studio</span>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div className="final-cta fade-in">
+                    <h2>Ready to Take Control of Your Tasks?</h2>
+                    <p>Sign up today and boost your productivity with ToDo Manager.</p>
+                    <div>
+                        <Link to="/register" className="cta-btn primary">Create Your Account</Link>
+                        <Link to="/login" className="cta-btn secondary">Login</Link>
+                    </div>
+                </div>
+
+                <footer className="footer fade-in">
+                    <div className="footer-container">
+                        <ul className="footer-links">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="https://github.com/BigJohn-dev" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        </ul>
+                        <p className="footer-copy">&copy; {new Date().getFullYear()} TaskMaster. All rights reserved.</p>
+                    </div>
+                </footer>
+
             </div>
-
-            <div className="social-proof-section fade-in">
-                <h2 className="social-proof-title">Trusted by Users and Teams Worldwide</h2>
-                <p className="social-proof-subtitle">
-                    ToDo Manager is used by individuals and organizations to stay on top of their
-                    productivity.
-                </p>
-                <div className="social-logos">
-                    <img src="/social/google.png" alt="Google" className="social-logo" />
-                    <img src="/social/microsoft.png" alt="Microsoft" className="social-logo" />
-                    <img src="/social/slack.png" alt="Slack" className="social-logo" />
-                    <img src="/social/github.png" alt="GitHub" className="social-logo" />
-                </div>
-                <div className="social-quotes">
-                    <blockquote>
-                        “ToDo Manager has transformed how our team collaborates and tracks progress.”
-                        <span> — Project Lead, Tech Corp</span>
-                    </blockquote>
-                    <blockquote>
-                        “The reminders feature alone keeps me from missing important deadlines.”
-                        <span>&mdash; Freelancer, Creative Studio</span>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div className="final-cta fade-in">
-                <h2>Ready to Take Control of Your Tasks?</h2>
-                <p>Sign up today and boost your productivity with ToDo Manager.</p>
-                <div>
-                    <Link to="/register" className="cta-btn primary">Create Your Account</Link>
-                    <Link to="/login" className="cta-btn secondary">Login</Link>
-                </div>
-            </div>
-
-            <footer className="footer fade-in">
-                <div className="footer-container">
-                    <ul className="footer-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="https://github.com/BigJohn-dev" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    </ul>
-                    <p className="footer-copy">&copy; {new Date().getFullYear()} TaskMaster. All rights reserved.</p>
-                </div>
-            </footer>
-
         </div>
-    </div>
     );
 }
 export default Home;

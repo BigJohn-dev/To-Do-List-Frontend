@@ -332,9 +332,8 @@ function TaskSection({ title, tasks, onDelete, onToggle, onEdit, showToggle, sho
                         <div className="task-actions">
                             {showToggle && (
                                 <button
-                                    className={`complete-button ${
-                                        task.completed ? "undo-button" : ""
-                                    }`}
+                                    className={`complete-button ${task.completed ? "undo-button" : ""
+                                        }`}
                                     onClick={() => onToggle(task.id, task.completed)}
                                 >
                                     {task.completed ? "Undo" : "Complete"}
